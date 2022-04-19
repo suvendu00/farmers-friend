@@ -1,0 +1,48 @@
+html{
+    font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+body{
+    background-color: rgb(119, 221, 207);
+    margin: 0;
+}
+
+@media (min-width:1200px){
+    .container{
+        max-width: 96%;
+    }
+}
+
+p{
+    color: #5d6660 ;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+#top-section-main{
+    background-image: url(img.jpg);
+    height: 740px;
+    border: none;
+    background-size: cover;
+}
+#top-section-content{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+#top-section-content h1{
+    font-size: 6em;
+    font-weight:300;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 100px;
+    margin-bottom: 15px;
+}
+#top-section-content p{
+    font-size: 1.3em;
+    font-weight:100;
+    color: white;
+    text-align: center;
+}
